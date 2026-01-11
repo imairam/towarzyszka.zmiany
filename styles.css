@@ -1098,38 +1098,38 @@ a{
 
     .star{
         margin-top: 3rem;
-        margin-left: -1.5rem;
+        margin-left: -1rem;
     }
 
     .readMore{
-        margin-top: 3rem;
-        right: 11.2rem;
+        margin-top: 1rem;
+        right: 12rem;
     }
 
     .readMorePL{
-        margin-top: 2rem;
-        right: 10.8rem;
+        margin-top: 4.2rem;
+        right: 11.5rem;
     }
 
     .offers_pic1{
-        margin-left: 5rem;
+        margin-left: 4rem;
     }
 
     .offers_pic3{
-        margin-left: 5rem;
+        margin-left: 4rem;
     }
 
     .text.text1, .subtxt.subtxt1{
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
 
     .text.text3,
     .subtxt.subtxt3{
-        margin-left: 6rem;
+        margin-left: 5rem;
     }
 
     .learn-more-btn{
-        margin-left: -11rem;
+        margin-left: -12rem;
     }
 }
 
