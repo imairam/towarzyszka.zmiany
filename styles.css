@@ -1103,12 +1103,12 @@ a{
 
     .readMore{
         margin-top: 1rem;
-        right: 11.5rem;
+        right: 12rem;
     }
 
     .readMorePL{
-        margin-top: 4.5rem;
-        right: 11rem;
+        margin-top: 4.2rem;
+        right: 11.5rem;
     }
 
     .offers_pic1{
@@ -1147,5 +1147,53 @@ a{
     .readMorePL{
         top: -.5rem;
         left: -11rem;
+    }
+}
+
+
+@media (max-width: 320px){
+    .mainPic{
+        top: -5rem;
+    }
+
+    .star{
+        top: 48rem;
+        left: 9rem;
+    }
+
+    .readMore{
+        left: -8.7rem;
+    }
+
+    .readMorePL{
+        left: -8.3rem;
+    }
+
+    .offers_pic{
+        width: 250px;
+    }
+
+    .offers_pic1{
+        left: -3.7rem;
+    }
+
+    .offers_pic3{
+        right: 3.7rem;
+    }
+
+    .text.text.text1, .subtxt.subtxt1{
+        margin-left: -3rem;
+    }
+
+    .text.text3, .subtxt.subtxt3{
+        margin-left: 1.5rem;
+    }
+
+    .subtxt.subtxt1, .subtxt.subtxt3{
+        font-size: 11px;
+    }
+
+    .btn{
+        margin-left: -1.8rem;
     }
 }
