@@ -95,7 +95,7 @@ body {
 
 .content-preview {
     overflow: hidden;
-    max-height: 140px;
+    max-height: 155px;
     transition: max-height 0.35s ease;
     font-size: 40px;
     font-family: "Kodchasan", sans-serif;
@@ -227,7 +227,7 @@ body {
     }
 
     .content-preview{
-        padding-bottom: 12px;
+        padding-bottom: 14px;
     }
 
     .page_logo {
