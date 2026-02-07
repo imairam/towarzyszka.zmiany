@@ -807,393 +807,130 @@ a{
     }
 }
 
+
 @media (max-width: 600px) {
 
-    .body{
-        margin: 0;
-        padding: 0;
-        max-width: 100%;
-        height: 100%;
+    .content{
+        position: relative;
+        z-index: 1;
+    }
+    .polygon{
+        display: none;
     }
 
-    .language-switcher{
-        position: fixed;
+    .decor{
+        left: -10%;
+        padding-top: 25px;
+        transform: rotate(3deg);
+        opacity: 25%;
+        height: 800px;
+        z-index: -1;
     }
 
-    .star{
-        position: absolute;
-        width: 70px;
-        height: 70px;
-        top: 56rem;
-        left: 10.5rem;
-        z-index: 10;
+    .mainPic {
+        position: static;
+        left: unset;
+        top: unset;
+        transform: unset;
+        padding-bottom: 0;
+        width: 100%;
+        max-width: 90vw;
+        height: auto;
+        margin: 0 auto 1.5rem;
+        margin-bottom: -3rem;
+        display: block;
     }
 
-    .readMore{
-        font-size: 12px;
-        top: 1.5rem;
-        right: 10.5rem;
-        line-height: normal;
-        z-index: 10;
+    #firstPL{
+        margin-bottom: 5rem;
     }
 
+    .star,
+    .readMore,
     .readMorePL {
-        font-size: 12px;
-        top: 1.5rem;
-        right: 10.2rem;
-        line-height: normal;
-        z-index: 10;
+        position: static;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
     }
 
-    /* offers */
+    .aboutMe{
+        margin-bottom: -2rem;
+    }
+
+
+    a{
+        position:relative;
+        z-index: 1;
+    }
+
+    .star {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: -2rem auto;
+        width: 80px;
+        height: auto;
+        z-index: -1;
+    }
+
+    .readMore {
+        margin-top: 7rem;
+        z-index: 9999;
+    }
+
     .offers_info {
-        padding-top: 5rem;
-        flex-direction: column;
+        margin-top: 7rem;
+        justify-content: center;
+    }
+
+    .offer {
+        max-width: 100%;
         align-items: center;
+        margin-bottom: 3rem;
+    }
+
+    .offers_pic {
+        margin: 0 auto;
+        display: block;
+        max-width: 90%;
+        height: auto;
     }
 
     .offers_pic1,
     .offers_pic3 {
-        width: 80%;
-        height: auto;
-        margin-right: 3rem;
-    }
-
-    .offers_pic1{
-        margin-top: 5rem;
-    }
-
-    .offers_pic3{
-        right: 2rem;
-    }
-
-    .text.text1{
-        font-size: 20px;
-        margin-right: 3rem;
-    }
-
-    .subtxt.subtxt1 {
-        padding-bottom: 3rem;
-        margin-right: 3rem;
-    }
-
-    .text.text3,
-    .subtxt.subtxt3 {
-        margin-right: 8rem;
-    }
-
-    .offers_decor {
-        margin-top: 4rem;
-        width: 90px;
-        top: 0.5rem;
-        right: 0.5rem;
-    }
-
-    .btn {
-        flex-basis: 100%;
-        margin: -2rem auto;
-    }
-
-    .learn-more-btn {
-        margin-right: 8rem;
-        font-size: 0.8rem;
-    }
-
-    .gallery {
-        transform: scale(0.7);
-        transform-origin: top center;
-        margin: -2rem auto 0 -.5rem;
-        max-width: 105%;
-    }
-
-    .gallery_logo {
-        right: -2.5rem;
-        bottom: -66rem;
-        width: 120px;
-    }
-
-    .gallery-stage {
-        height: 400px;
-
-    }
-
-    .dots {
-        margin-top: -5rem;
-        padding-bottom: 3rem;
-    }
-
-    .nav-btn {
-        font-size: 1.5rem;
-        padding: 0.2em 0.5em;
-    }
-
-    .frame {
-        transform: scale(0.6);
-        transform-origin: top left;
-        margin-left: 2rem;
-    }
-
-    .frame-text {
-        transform: scale(0.6);
-        transform-origin: top left;
-        margin-left: 2.8rem;
-        margin-top: -7.2rem;
-    }
-
-    #menuToggle {
-        top: 10px;
-        left: 10px;
-        font-size: 20px;
-    }
-
-    #menu {
-        display: none;
-        position: fixed;
-        inset: 0;
-        width: 100vw;
-        height: 100vh;
-        background: rgba(253, 213, 223, 0.98);
-        z-index: 1000;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    #menu.show {
-        display: flex;
-    }
-
-    #menu ul {
-        flex-direction: column;
-        gap: 2rem;
-        margin-bottom: 5rem;
-    }
-
-    #menu ul li a {
-        font-size: 18px;
-    }
-
-    .language-switcher {
-        top: 10px;
-        right: 10px;
-        gap: 6px;
-    }
-
-    .language-switcher a {
-        padding: 5px 8px;
-        font-size: 13px;
-    }
-
-    .page_logo {
-        padding: 10px 0 0 25px;
-    }
-
-    .pageLogo {
-        max-width: 100px;
-    }
-
-    .mainPic {
-        position: relative;
-        left: 50%;
-        top: 70%;
-        transform: translate(-50%, -90%);
-        width: 100%;
-        padding-bottom: 0;
-        margin-top: 30rem;
-        margin-bottom: -12rem;
-    }
-
-    .polygon {
-        display: none;
-    }
-
-    .aboutMe {
         width: 90%;
-        margin: 2rem auto;
-        font-size: 14px;
-        margin-top: -21rem;
-    }
-
-    .decor {
-        left: -10%;
-        padding-top: 30px;
-        transform: rotate(3deg);
-        opacity: 25%;
-        height: 500px;
-    }
-
-    .seemore1 {
-        bottom: 3rem;
-        left: 1px;
-        margin-top: 8px;
-    }
-
-    .textcolor{
-        color: rgb(250, 226, 226);
-        text-decoration: none;
-        font-size: 10px;
-    }
-}
-
-@media (max-width: 430px){
-    .mainPic{
-        top: 2rem;
-    }
-
-    .star{
-        top: 54rem;
-        left: 11.5rem;
-    }
-
-    .aboutMe{
-        margin-top: -25rem;
-    }
-
-    .readMore{
-        top: 2.5rem;
-        right: 12rem;
-    }
-
-    .readMorePL{
-        top: 3.5rem;
-        right: 10.8rem;
-    }
-
-    .offers_decor{
-        margin-top: 8rem;
-    }
-
-    .offers_pic1{
-        margin-top: 10rem;
-        margin-left: 7rem;
+        max-width: 400px;
+        height: auto;
+        left: 0;
+        margin: 5rem auto 0;
+        display: block;
     }
 
     .offers_pic3{
         margin-top: -3rem;
-        margin-left: 7rem;
-        
     }
 
-    .text.text1, .subtxt.subtxt1{
-        margin-left: 3.8rem;
+    .text, .subtxt{
+        width: 330px;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
     }
 
-    .text.text3, .subtxt.subtxt3{
-        margin-left: 8.5rem;
+    .btn {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: -2rem;
+        margin-bottom: 6rem;
+        display: block;
+        text-align: center;
     }
 
-    .learn-more-btn{
-        margin-top: 5rem;
-        margin-bottom: 5rem;
-        margin-left: -10rem;
-        width: 125px;
-    }
-}
-
-@media (max-width: 390px){
-    .aboutMe{
-        margin-top: -22rem;
-    }
-
-    .star{
-        margin-top: 3rem;
-        margin-left: -1rem;
-    }
-
-    .readMore{
-        margin-top: 1rem;
-        right: 12rem;
-    }
-
-    .readMorePL{
-        margin-top: 4.2rem;
-        right: 11.5rem;
-    }
-
-    .offers_pic1{
-        margin-left: 4rem;
-    }
-
-    .offers_pic3{
-        margin-left: 4rem;
-    }
-
-    .text.text1, .subtxt.subtxt1{
-        margin-left: 1rem;
-    }
-
-    .text.text3,
-    .subtxt.subtxt3{
-        margin-left: 5rem;
-    }
-
-    .learn-more-btn{
-        margin-left: -12rem;
-    }
-}
-
-@media (max-width: 412px){
-    .star{
-        top: 52rem;
-        left: 11rem;
-    }
-
-    .readMore{
-        top: 2rem;
-        left: -11.5rem;
-    }
-
-    .readMorePL{
-        top: -.5rem;
-        left: -11rem;
-    }
-}
-
-
-@media (max-width: 320px){
-    .mainPic{
-        top: -5rem;
-    }
-
-    .star{
-        top: 48rem;
-        left: 9rem;
-    }
-
-    .readMore{
-        left: -8.7rem;
-    }
-
-    .readMorePL{
-        left: -8.3rem;
-    }
-
-    .offers_pic{
-        width: 250px;
-    }
-
-    .offers_pic1{
-        left: -3.7rem;
-    }
-
-    .offers_pic3{
-        right: 3.7rem;
-    }
-
-    .text.text.text1, .subtxt.subtxt1{
-        margin-left: -3rem;
-    }
-
-    .text.text3, .subtxt.subtxt3{
-        margin-left: 1.5rem;
-    }
-
-    .subtxt.subtxt1, .subtxt.subtxt3{
-        font-size: 11px;
-    }
-
-    .btn{
-        margin-left: -1.8rem;
+    .learn-more-btn {
+        margin: 1.5rem auto 0;
+        padding: 10px 16px;
     }
 }
