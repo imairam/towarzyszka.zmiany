@@ -110,7 +110,7 @@ body {
     font-size: 3rem;
     font-family: 'Kodchasan', sans-serif;
     text-align: left;
-    left: 7rem;
+    left: 1rem;
     font-weight: 100;
 }
 
@@ -124,7 +124,7 @@ body {
     left: 12rem;
 }
 
-.my_pathPL{
+.my_pathPL {
     position: relative;
     top: -27rem;
     font-size: 3rem;
@@ -187,7 +187,7 @@ body {
     object-fit: cover;
 }
 
-.portrait3{
+.portrait3 {
     position: relative;
     width: 550px;
     height: 800px;
@@ -233,7 +233,7 @@ body {
     font-size: 110px;
 }
 
-.second_part{
+.second_part {
     margin-top: -38rem;
     margin-bottom: 15rem;
 }
@@ -258,7 +258,7 @@ body {
 }
 
 @media (max-width: 1024px) {
-    .language-switcher{
+    .language-switcher {
         position: fixed;
     }
 
@@ -282,14 +282,14 @@ body {
         z-index: 1002;
     }
 
-    .portrait1{
+    .portrait1 {
         top: -5rem;
         width: 400px;
         height: auto;
         left: 3rem;
     }
 
-    .portrait2{
+    .portrait2 {
         width: 400px;
         height: auto;
         left: 38rem;
@@ -303,61 +303,62 @@ body {
         left: 1.5rem;
     }
 
-    .floating-words{
+    .floating-words {
         margin-bottom: 10rem;
     }
 
-    .second_part{
+    .second_part {
         margin-top: -35rem;
         margin-bottom: 2rem;
     }
 
-    .about_me{
+    .about_me {
         top: 4rem;
         font-size: 3rem;
         width: 300px;
         left: 33rem;
-    } 
+    }
 
-    .mainText1{
+    .mainText1 {
         top: -31rem;
         left: 32rem;
     }
 
-    .my_background{
+    .my_background {
         margin-top: 2rem;
         left: 4rem;
     }
 
-    .my_backgroundPL{
+    .my_backgroundPL {
         margin-top: 2rem;
         left: 3rem;
         margin-bottom: -2rem;
     }
 
-    .my_path{
+    .my_path {
         margin-top: 4rem;
         left: 38rem;
         font-size: 4rem;
     }
 
-    .my_pathPL{
+    .my_pathPL {
         left: 38rem;
         font-size: 3rem;
         width: 400px;
         margin-top: 3rem;
     }
 
-    .mainText2{
+    .mainText2 {
         left: 3rem;
         width: 500px;
     }
-    .mainText3{
+
+    .mainText3 {
         left: 33rem;
         width: 30rem;
     }
 
-    .fw2{
+    .fw2 {
         margin-top: 4rem;
     }
 
@@ -365,7 +366,7 @@ body {
 
 
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .language-switcher {
         position: fixed;
     }
@@ -440,6 +441,7 @@ body {
         left: 4rem;
         font-size: 2rem;
     }
+
     .my_backgroundPL {
         margin-top: 10rem;
         left: 3rem;
@@ -472,17 +474,20 @@ body {
         font-size: 0.9rem;
     }
 
-    .fw1{
+    .fw1 {
         left: 10rem;
     }
-    .fw2{
+
+    .fw2 {
         left: 1rem;
         margin-top: 5rem;
     }
-    .fw3{
+
+    .fw3 {
         left: 26rem;
     }
-    .fw4{
+
+    .fw4 {
         left: 18rem;
         margin-top: 3rem;
     }
@@ -509,10 +514,11 @@ body {
         font-size: 13px;
     }
 
-    .second_part{
+    .second_part {
         margin-top: 6rem;
         margin-bottom: 5rem;
     }
+
     /* Titles */
     .about_me {
         display: none;
@@ -543,8 +549,9 @@ body {
         position: static;
         font-size: 1.9rem;
         text-align: center;
-        margin: 1rem 0;
+        margin: 1.5rem 2rem;
     }
+
     /* Text blocks */
     .mainText1,
     .mainText2,
@@ -567,7 +574,7 @@ body {
         display: block;
     }
 
-    .portrait3{
+    .portrait3 {
         position: static;
         width: 220px;
         height: 300px;
@@ -576,7 +583,7 @@ body {
         display: block;
     }
 
-    .floating-words{
+    .floating-words {
         margin-bottom: 5rem;
     }
 
@@ -588,6 +595,7 @@ body {
         opacity: 0.4;
         margin: 1rem 0;
     }
+
     .fw1 {
         top: 0;
         left: 15%;
@@ -613,12 +621,12 @@ body {
     }
 }
 
-@media (max-width: 430px){
-    .my_background{
+@media (max-width: 430px) {
+    .my_background {
         margin-bottom: 2rem;
     }
 
-    .my_backgroundPL{
+    .my_backgroundPL {
         margin-bottom: 2rem;
     }
 }
