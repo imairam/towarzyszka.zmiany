@@ -111,20 +111,26 @@ document.addEventListener('DOMContentLoaded', () => {
   updateCarousel();
 });
 
+
 function toggleBox(btn) {
   const box = btn.parentElement;
   const preview = box.querySelector(".content-preview");
   const full = box.querySelector(".content-full");
 
+  const isPolish = document.documentElement.lang === "pl";
+
+  const seeMoreText = isPolish ? "Zobacz więcej" : "See more";
+  const seeLessText = isPolish ? "Zobacz mniej" : "See less";
+
   if (btn.dataset.expanded === "true") {
     full.style.maxHeight = "0px";
     preview.style.maxHeight = "120px";
-    btn.innerText = "See more";
+    btn.innerText = seeMoreText;
     btn.dataset.expanded = "false";
   } else {
     preview.style.maxHeight = "0px";
     full.style.maxHeight = full.scrollHeight + "px";
-    btn.innerText = "See less";
+    btn.innerText = seeLessText;
     btn.dataset.expanded = "true";
   }
 }
