@@ -200,6 +200,12 @@ body {
     color: white;
 }
 
+@media (min-width: 1400px){
+    .pageLogo{
+        margin-right: 11rem;
+    }
+}
+
 @media (max-width: 1024px){
     .page_logo {
         position: relative;
