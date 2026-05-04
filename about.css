@@ -24,7 +24,7 @@ body {
     display: inline-block;
     padding: 4px 8px;
     margin-left: 5px;
-    background: #f7d1d8;
+    background: #D81B60;
     color: white;
     text-decoration: none;
     border-radius: 6px;
@@ -61,7 +61,7 @@ body {
     text-decoration: none;
     font-size: 1rem;
     color: white;
-    background: #f7d1d8;
+    background: #D81B60;
     padding: 3px 10px;
     border-radius: 6px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -78,7 +78,7 @@ body {
     right: 5rem;
     display: flex;
     justify-content: flex-end;
-    top: 8rem;
+    top: 12rem;
     font-size: 4rem;
     font-family: 'Kodchasan', sans-serif;
     font-style: italic;
@@ -134,7 +134,7 @@ body {
     font-size: 17px;
     font-weight: 500;
     left: 45rem;
-    top: -27rem;
+    top: -33rem;
 }
 
 .mainText2 {
@@ -160,11 +160,13 @@ body {
 
 .portrait1 {
     position: relative;
-    width: 400px;
-    height: 600px;
-    left: 130px;
-    border-radius: 45%;
-    object-fit: cover;
+    width: 500px;
+    height: 750px;
+    left: 100px;
+    /* border-radius: 45%;
+    object-fit: cover; */
+    /* transform: scaleX(-1); */
+    top: 4rem;
 }
 
 .portrait2 {
@@ -179,12 +181,13 @@ body {
 
 .portrait3 {
     position: relative;
-    width: 550px;
-    height: 800px;
+    width: 500px;
+    height: 750px;
     top: 24rem;
     left: 48rem;
     border-radius: 40%;
     object-fit: cover;
+    top: 18rem;
 }
 
 .floating-words {
@@ -243,7 +246,7 @@ body {
     background-repeat: no-repeat;
     background-color: rgb(255, 253, 253);
     overflow: hidden;
-    filter: blur(15px) brightness(1.5) contrast(0.7) saturate(1.5) hue-rotate(15deg);
+    filter: blur(15px) brightness(1) contrast(0.8) saturate(1.2) hue-rotate(15deg);
     z-index: -1;
 }
 
@@ -331,10 +334,10 @@ body {
     }
 
     .portrait2 {
-        width: 400px;
+        width: 500px;
         height: auto;
-        left: 38rem;
-        top: 19rem;
+        left: 35rem;
+        top: 17rem;
     }
 
     .portrait3 {
@@ -356,7 +359,7 @@ body {
     .about_me {
         top: 4rem;
         font-size: 3rem;
-        width: 300px;
+        width: 450px;
         left: 33rem;
     }
 
@@ -433,7 +436,7 @@ body {
     }
 
     .portrait1 {
-        top: -3rem;
+        top: .5rem;
         width: 300px;
         height: auto;
         left: 2rem;
@@ -569,7 +572,7 @@ body {
         position: static;
         font-size: 1.5rem;
         margin-top: 3rem;
-        margin-left: 6rem;
+        margin-left: 7rem;
     }
 
     .my_backgroundPL {
@@ -590,7 +593,7 @@ body {
         position: static;
         font-size: 1.9rem;
         text-align: center;
-        margin: 1.5rem 2rem;
+        margin: 1.5rem 3.5rem;
     }
 
     /* Text blocks */
@@ -608,11 +611,18 @@ body {
     .portrait1,
     .portrait2 {
         position: static;
-        width: 200px;
+        width: 300px;
         height: auto;
         border-radius: 40%;
-        margin: 2rem auto;
         display: block;
+    }
+
+    .portrait1{
+        margin: 3rem auto -6rem auto;
+    }
+
+    .portrait2{
+        margin: 2rem auto;
     }
 
     .portrait3 {
@@ -669,5 +679,155 @@ body {
 
     .my_backgroundPL {
         margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 360px){
+    .my_background{
+        margin-left: 3rem;
+    }
+
+    .my_backgroundPL{
+        margin-left: .5rem;
+        text-align: center;
+    }
+
+    .my_pathPL{
+        margin-left: 1rem;
+    }
+}
+
+@media (min-width: 1440px){
+    .pageLogo{
+        left: 42rem;
+    }
+
+    .portrait1{
+        left: 3rem;
+        width: 500px;
+        height: auto;
+        border-radius: 0%;
+    }
+
+    .portrait2{
+        margin-left: -9rem;
+    }
+
+    .portrait3{
+        margin-left: -9rem;
+    }
+
+    .about_me{
+        right: 10rem;
+    }
+
+    .mainText1{
+        margin-left: -15rem;
+    }
+
+    .my_background{
+        left: 12rem;
+    }
+
+    .my_backgroundPL{
+        left: 4rem;
+    }
+
+    .my_path{
+        left: 10rem;
+    }
+
+    .my_pathPL{
+        left: 16rem; 
+    }
+
+    .mainText2, .mainText3{
+        left: 5rem;
+    }
+}
+
+@media (min-width: 2560px){
+    .pageLogo{
+        left: 78rem;
+        width: 500px;
+        height: auto;
+    }
+
+    .language-switcher a{
+        padding: 6px 10px;
+        font-size: 2rem;
+    }
+
+    .back-button{
+        padding: 10px 20px;
+    }
+
+
+    .portrait1{
+        width: 800px;
+        height: auto;
+        left: 10rem;
+    }
+
+    .portrait2{
+        margin-left: 25rem;
+        margin-top: 30rem;
+        width: 1000px;
+        height: auto;
+    }
+
+    .portrait3{
+        width: 800px;
+        height: auto;
+        margin-left: 35rem;
+        margin-top: 10rem;
+    }
+
+
+    .about_me{
+        right: 20rem;
+        font-size: 6.5rem;
+    }
+
+    .my_path{
+        font-size: 8rem;
+        margin-top: -28rem;
+        margin-left: 20rem;
+    }
+
+    .mainText1{
+        font-size: 2rem;
+        margin-left: 20rem;
+        width: 1200px;
+        margin-top: -25rem;
+    }
+
+    .mainText2{
+        font-size: 2rem;
+        width: 1200px;
+    }
+
+    .mainText3{
+        font-size: 2rem;
+        width: 1200px;
+        margin-left: 5rem;
+    }
+
+    .my_background{
+        margin-top: -20rem;
+        font-size: 7rem;
+        left: 15rem;
+    }
+
+    .my_backgroundPL{
+        margin-top: -20rem;
+        left: 6rem;
+        font-size: 5rem;
+    }
+
+    .my_pathPL{
+        margin-top: -26rem;
+        font-size: 6rem;
+        left: 28rem;
     }
 }
