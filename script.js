@@ -14,7 +14,7 @@ toggleButton.addEventListener("click", () => {
         icon.classList.remove("fa-times");
         icon.classList.add("fa-bars");
         toggleButton.setAttribute("aria-label", "Menu");
-        icon.style.color = "";
+        icon.style.color = "rgba(216, 27, 96, 1)";
     }
 });
 
