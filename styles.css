@@ -1270,3 +1270,22 @@ a{
         left: -1.3rem;
     }
 }
+
+@media (min-width: 375px){
+    .readMorePL{
+        margin-left: -1rem;
+    }
+
+    .readMore{
+        margin-left: .5rem;
+    }
+
+    .text.text1, .subtxt.subtxt1{
+        width: 300px;
+        margin-left: 3rem;       
+    }
+
+    #framePL{
+        top: -1rem;
+    }
+}
