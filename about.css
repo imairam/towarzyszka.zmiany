@@ -837,3 +837,9 @@ body {
         left: 28rem;
     }
 }
+
+@media (min-width: 375px){
+    .my_background{
+        margin-left: 5.5rem;
+    }
+}
