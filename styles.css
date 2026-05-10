@@ -1238,3 +1238,35 @@ a{
     }
 }
 
+@media (min-width: 390px){
+    .pageLogo{
+        width: 120px;
+    }
+
+    .language-switcher a{
+        padding: 2px 4px;
+    }
+
+    .readMore{
+        margin-left: .8rem;
+    }
+
+    .readMorePL{
+        margin-left: -.7rem;
+    }
+
+    .text.text1, .subtxt.subtxt1{
+        width: 300px;
+        margin-left: 3rem;
+    }
+
+    #framePL{
+        top: -1rem;
+    }
+}
+
+@media (min-width: 430px){
+    .star{
+        left: -1.3rem;
+    }
+}
