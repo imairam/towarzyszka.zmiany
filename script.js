@@ -134,3 +134,10 @@ function toggleBox(btn) {
     btn.dataset.expanded = "true";
   }
 }
+
+
+document.querySelectorAll('.aboutMe, .mainText1, .mainText2, .mainText3').forEach(el => {
+  el.innerHTML = el.innerHTML.replace(
+    /\b(a|i|o|u|w|z|na|do|od|po|za|ze|we|and|I|or|of|to|in|on)\s+/gi, '$1&nbsp;'
+  );
+});
