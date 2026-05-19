@@ -172,9 +172,9 @@ a{
     color: white;
     cursor: pointer;
     position: relative;
-    text-align: right;
+    text-align: center;
     font-family: 'Kodchasan', sans-serif;
-    right: 9.8rem;
+    right: -33rem;
     bottom: 4.5rem;
     font-size: 16px;
     font-weight: 400;
@@ -187,7 +187,7 @@ a{
     position: relative;
     text-align: right;
     font-family: 'Kodchasan', sans-serif;
-    right: 9.3rem;
+    right: -4.4rem;
     bottom: 4.5rem;
     font-size: 16px;
     font-weight: 400;
@@ -220,7 +220,7 @@ a{
     width: 120px;
     height: 120px;
     float: right;
-    right: 15rem;
+    margin-right: 15rem;
     bottom: 7rem;
 }
 
@@ -291,6 +291,7 @@ a{
     left: -2rem;
     margin-left: -2rem; 
     margin-right: 5rem;
+    top: 3.5rem;
 }
 
 
@@ -304,6 +305,7 @@ a{
     margin-right: -1rem;
     margin-right: -2rem;
     margin-left: 5rem;
+    top: 2.4rem;
 }
 
 .text {
@@ -311,7 +313,7 @@ a{
     color: rgba(216, 27, 96, 1);
     font-size: 30px;
     font-weight: lighter;
-    margin-top: 1rem;
+    margin-top: 6rem;
 }
 
 .subtxt {
@@ -325,12 +327,16 @@ a{
 
 .text.text1,
 .subtxt.subtxt1 {
-    margin-left: -10rem;
+    margin-right: 10rem;
 }
 
 .text.text3,
 .subtxt.subtxt3 {
     margin-left: 6rem;
+}
+
+.text.text3{
+    padding-bottom: 2rem;
 }
 
 .btn {
@@ -969,11 +975,25 @@ a{
     }
 
     .star{
-        transform: translateX(-310%);
+        transform: translateX(-493%);
     }
 
     .readMore, .readMorePL{
         margin-right: 40.8rem;
+    }
+
+    .offers_pic1{
+        top: 10rem;
+    }
+
+    .offers_pic3{
+        top: -3rem;
+    }
+
+    .text.text1{
+        margin-top: 12rem;
+        width: 2000px;
+        left: -13rem;
     }
 }
 
