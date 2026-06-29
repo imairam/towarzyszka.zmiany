@@ -1099,12 +1099,13 @@ a {
         height: 240px;
     }
 
-    .subtxt.subtxt.subtxt1{
+    .subtxt.subtxt1{
         margin-bottom: 2rem;
     }
 
     .frame-text{
         margin-top: -6.5rem;
+        margin-left: 3rem;
     }
 }
 
