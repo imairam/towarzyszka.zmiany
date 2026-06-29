@@ -77,7 +77,7 @@ body {
 #menu.show {
     display: flex;
     justify-content: center;
-    
+
 }
 
 #menu ul {
@@ -165,10 +165,11 @@ body {
     transform: rotate(-2deg);
 }
 
-a{
+a {
     text-decoration: none;
 }
-.readMore{
+
+.readMore {
     color: white;
     cursor: pointer;
     position: relative;
@@ -181,7 +182,7 @@ a{
     line-height: 1.5rem;
 }
 
-.readMorePL{
+.readMorePL {
     color: white;
     cursor: pointer;
     position: relative;
@@ -199,23 +200,11 @@ a{
 #firstPL {
     top: 250px;
     line-height: 2.5rem;
-}
-
-
-#firstP,
-#secondP,
-#thirdP,
-#fourthP,
-#firstPL,
-#secondPL,
-#thirdPL,
-#fourthPL {
     right: 230px;
 }
 
 
-
-.star{
+.star {
     position: relative;
     width: 120px;
     height: 120px;
@@ -242,19 +231,6 @@ a{
 }
 
 
-
-.offers_info {
-    background: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    flex-wrap: wrap;
-    gap: 2rem;
-    padding: 4rem 2rem;
-    text-align: center;
-    position: relative;
-}
-
 .offers_decor {
     position: absolute;
     top: 1rem;
@@ -273,72 +249,52 @@ a{
     z-index: 10;
 }
 
+.offers_info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    position: relative;
+}
+
 .offer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 400px;
-    position: relative;
+    text-align: center;
+
+    flex: 1 1 320px;
+    max-width: 450px;
 }
 
-.offers_pic1 {
-    position: relative;
-    width: 400px;
-    height: 550px;
+.offer img {
+    width: 100%;
+    max-width: 350px;
+    height: 450px;
+    display: block;
     border-top-left-radius: 232.87px;
     border-top-right-radius: 232.87px;
     object-fit: cover;
-    left: -2rem;
-    margin-left: -2rem; 
-    margin-right: 5rem;
-    top: 3.5rem;
-}
-
-
-.offers_pic3 {
-    position: relative;
-    width: 400px;
-    height: 550px;
-    border-top-left-radius: 232.87px;
-    border-top-right-radius: 232.87px;
-    object-fit: cover;
-    margin-right: -1rem;
-    margin-right: -2rem;
-    margin-left: 5rem;
-    top: 2.4rem;
+    gap: 5rem;
 }
 
 .text {
+    margin-top: 20px;
+    font-size: 30px;
     font-family: 'Kodchasan', sans-serif;
     color: rgba(216, 27, 96, 1);
-    font-size: 30px;
     font-weight: lighter;
-    margin-top: 6rem;
 }
 
 .subtxt {
+    margin-top: 10px;
+    font-size: .9rem;
+    line-height: 1.6;
     font-family: 'Kokoro', sans-serif;
-    margin-top: 0.5rem;
-    line-height: 1.3;
     color: #333;
-    padding: 0 1rem;
-    width: 350px;
 }
-
-.text.text1,
-.subtxt.subtxt1 {
-    margin-right: 10rem;
-}
-
-.text.text3,
-.subtxt.subtxt3 {
-    margin-left: 6rem;
-}
-
-.text.text3{
-    padding-bottom: 2rem;
-}
-
 .btn {
     margin-bottom: 2rem;
     padding-bottom: 2rem;
@@ -534,31 +490,82 @@ a{
     color: white;
 }
 
-
-@media (min-width: 1400px) {
-    .mainPic, .decor{
-        margin-left: 12rem;
+@media (min-width: 1920px){
+    .pageLogo{
+        margin-left: 15rem;
+        width: 200px;
+        height: auto;
     }
 
-    .pageLogo, .aboutMe{
-        margin-right: 14rem;
+    .mainPic {
+        padding-left: 13rem;
+        width: 650px;
+        height: auto;
+        top: 3rem;
+    }
+
+    .aboutMe {
+        font-size: 1.5rem;
+        margin-top: -3rem;
+        left: 65rem;
+    }
+
+    .decor {
+        left: 3rem;
     }
 
     .star{
+        right: 12rem;
+    }
+
+    .readMorePL{
+        left: -2rem;
+    }
+
+    h5{
+        margin-right: 27rem;
+    }
+    
+    .subtxt{
+        font-size: 20px;
+    }
+
+    .subtxt.subtxt2{
+        max-width: 300px;
+    }
+
+    .offer img{
+        margin-top: -2rem;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .mainPic,
+    .decor {
+        margin-left: 12rem;
+    }
+
+    .pageLogo,
+    .aboutMe {
+        margin-right: 14rem;
+    }
+
+    .star {
         margin-right: 10rem;
     }
 
-    .offers_decor{
+    .offers_decor {
         width: 200px;
     }
 
 
-    .frame{
+    .frame {
         width: 200px;
         height: 220px;
     }
-    
-    .frame-text{
+
+    .frame-text {
         font-size: 20px;
         margin-top: -9.5rem;
         font-weight: 500;
@@ -639,6 +646,7 @@ a{
         position: static;
         max-width: 150px;
         height: auto;
+        margin-left: 2rem;
     }
 
     .page_logo a {
@@ -687,24 +695,24 @@ a{
         opacity: 30%;
     }
 
-    .star{
+    .star {
         position: relative;
         top: 1rem;
-        right: 28rem;
+        right: 13rem;
         margin-bottom: 5rem;
         z-index: 10;
     }
 
-    .readMore{
+    .readMore {
         position: relative;
         top: 3.3rem;
         right: 22.8rem;
         z-index: 10;
     }
 
-    .readMorePL{
+    .readMorePL {
         top: 3.3rem;
-        right: 22.3rem;
+        right: 3.3rem;
         z-index: 10;
     }
 
@@ -718,13 +726,9 @@ a{
         display: block;
     }
 
-    .text.text1, .subtxt.subtxt1{
+    .text.text1,
+    .subtxt.subtxt1 {
         margin-right: 3rem;
-    }
-
-    .frame-text{
-        left: 1.4rem;
-        margin-top: -3rem;
     }
 
     .gallery {
@@ -751,37 +755,13 @@ a{
     .frame-text {
         transform: scale(0.8);
         transform-origin: top left;
-        margin-left: 3rem;
-        margin-top: -6.5rem;
+        margin-left: 4.4rem;
+        margin-top: -8.5rem;
     }
 
     .offers_info {
         gap: 1.5rem;
         padding: 3rem 1rem;
-    }
-
-    .offers_pic1,
-    .offers_pic3 {
-        width: 250px;
-        height: auto;
-    }
-
-    .offers_pic1 {
-        margin-left: 5rem;
-    }
-
-    .offers_pic3 {
-        margin-right: 4rem;
-    }
-
-    .text.text1,
-    .subtxt.subtxt1 {
-        margin-left: .5rem;
-    }
-
-    .text.text3,
-    .subtxt.subtxt3 {
-        margin-right: 5rem;
     }
 
     .text {
@@ -790,6 +770,10 @@ a{
 
     .subtxt {
         font-size: 14px;
+    }
+
+    .subtxt.subtxt2{
+        width: 270px;
     }
 
     .offers_decor {
@@ -812,20 +796,95 @@ a{
     }
 }
 
-@media (max-width: 768px){
-    .star{
-        right: 20rem;
-        z-index: 10;
+
+@media (min-width: 2560px) {
+    .pageLogo {
+        margin-left: 36rem;
     }
 
-    .readMore{
-        right: 14.8rem;
+    .mainPic {
+        margin-left: 30rem;
+        width: 690px;
+        height: auto;
+        top: 3rem;
+    }
+
+    .aboutMe {
+        font-size: 1.8rem;
+        margin-top: -5rem;
+        left: 85rem;
+    }
+
+    .decor {
+        margin-left: 33rem;
+    }
+
+    .star {
+        transform: translateX(-350%);
+    }
+
+    .readMore,
+    .readMorePL {
+        margin-right: 52.7rem;
+    }
+
+    .offers_pic1 {
+        top: 10rem;
+    }
+
+    .offers_pic3 {
+        top: -3rem;
+    }
+
+    .text.text1 {
+        margin-top: 12rem;
+        width: 2000px;
+        left: -13rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .pageLogo {
+        left: 43.5rem;
+    }
+
+    .mainPic {
+        left: 10rem;
+    }
+
+    .aboutMe {
+        margin-right: 1rem;
+    }
+
+    .star{
+        margin-right: 15rem;
     }
 
     .readMorePL{
-        top: 3.3rem;
-        right: 14.3rem;
-        z-index: 10;
+        right: -9.8rem;
+    }
+
+    .subtxt.subtxt2{
+        width: 300px;
+    }
+
+    .subtxt.subtxt1{
+        margin-right: 3rem;
+    }
+}
+
+@media (max-width: 768px){
+    .pageLogo{
+        margin-left: 3rem;
+    }
+
+    .star{
+        margin-right: 7rem;    
+    }
+
+    .readMorePL{
+        text-align: right;
+        right: 3.2rem;
     }
 
     .btn {
@@ -841,282 +900,23 @@ a{
         font-size: 0.85rem;
     }
 
-    .offers_pic1{
-        margin-top: 4rem;
-        margin-left: 7rem;
+    .offer img{
+        height: 300px;
+        justify-content: center;
     }
 
-    .offers_pic3{
-        margin-left: 4rem;
-    }
-
-    .text.text1,.subtxt.subtxt1{
-        margin-left: 1.5rem;
-        width: 500px;
-    }
-
-    .subtxt.subtxt1{
-        margin-bottom: 5rem;
-    }
-
-    .frame-text{
-        top: 145.2rem;
-    }
-
-    #framePL{
-        top: 142.8rem;
-    }
-    
-}
-
-
-/* @media (max-width: 375px){
-    .pageLogo{
-        width: 110px;
-    }
-
-    .mainPic{
-        top: 23rem;
-        width: 230px;
-    }
-
-    .readMorePL{
-        top: 2.2rem;
-        left: -12.8rem;
-    }
-
-    .readMore{
-        top: 2.2rem;
-        left: -13.3rem;
-    }
-
-    .learn-more-btn{
-        margin-right: 3rem;
-    }
-
-    #framePL{
-        top: 145rem;
-    }
-
-    .frame-text{
-        top: 147.5rem;
-    }
-    
-}
-
-@media (max-width: 430px){
-    .star {
-        position: absolute;
-        top: 48rem;
-        inset-inline: 0;
-        margin-inline: auto;
-        width: 100px;
-        height: auto;
-        z-index: 1;
-    }
-
-    .readMore, .readMorePL {
-        margin-top: -.5rem;
-        margin-right: -3rem;
-        margin-bottom: 8rem;
-    }
-
-    .subtxt.subtxt1{
-        width: 300px;
-    }
-
-    .text.text1, .subtxt.subtxt1{
-        margin-left: 3rem;
-    }
-
-    .learn-more-btn{
-        margin-left: -12rem;
-        margin-bottom: 5rem;
-    }
-
-    .frame-text{
-        margin-top: -14.5rem;
-    }
-
-    #framePL{
-        margin-top: -12rem;
-    }
-
-    .offers_pic1{
-        left: -1rem;
-    }
-
-    .footer{
-        background-color: red;
-        overflow: visible;
-    }
-} */
-
-@media (min-width: 2560px){
-    .pageLogo{
-        margin-left: 36rem;
-    }
-
-    .mainPic{
-        margin-left: 42rem;    
-        width: 500px;
-        height: auto;
-        top: 3rem;
-    }
-
-    .aboutMe{
-        font-size: 1.8rem;
-        margin-top: -3rem;
-        left: 85rem;
-    }
-
-    .decor{
-        margin-left: 42rem;
-    }
-
-    .star{
-        transform: translateX(-493%);
-    }
-
-    .readMore, .readMorePL{
-        margin-right: 40.8rem;
-    }
-
-    .offers_pic1{
-        top: 10rem;
-    }
-
-    .offers_pic3{
-        top: -3rem;
-    }
-
-    .text.text1{
-        margin-top: 12rem;
-        width: 2000px;
-        left: -13rem;
-    }
-}
-
-@media (min-width: 1440px){
-    .pageLogo{
-        left: 42rem;
-    }
-
-    .mainPic{
-        left: 10rem;
-    }
-
-    .aboutMe{
-        margin-right: 1rem;
-    }
-}
-
-/* @media (max-width: 360px){
-    .polygon{
-        display: none;
-    }
-
-    .decor{
-        position: absolute;
-        top: -22rem;
-        transform: rotate(25deg);
-        left: -1rem;
-    }
-
-    .mainPic{
-        top: 4rem;
-    }
-
-    .aboutMe{
-        margin-top: 20rem;
-    }
-
-    .language-switcher a{
-        padding: 3px 5px;
-    }
-
-    .star{
-        margin-top: 6rem;
-    }
-
-    .readMorePL{
-        margin-top: -1rem;
-        left: -11rem;
-    }
-
-    .readMore{
-        left: -11.5rem;
-        margin-top: 3.3rem;
-    }
-
-    .text.text1, .subtxt.subtxt1, .text.text3, .subtxt.subtxt3{
-        width: 250px;
-    }
-
-    .learn-more-btn{
-        margin-left: -14rem;
-        margin-right: 6rem;
+    .text, .subtxt{
         text-align: center;
     }
 
-    .frame-text{
-        margin-top: -4rem;
+    .subtxt.subtxt1{
+        margin-bottom: 2rem;
     }
 
-    #framePL{
-        margin-top: -4rem;
+    .frame-text{
+        margin-top: -8.8rem;
     }
 }
-
-@media (max-width: 390px){
-    .mainPic{
-        width: 250px;
-        height: auto;
-        top: 4rem;
-    }
-
-    .polygon{
-        display: none;
-    }
-
-    .aboutMe{
-        margin-top: 20rem;
-    }
-
-    .decor{
-        top: -25rem;
-        left: -1rem;
-        height: 40rem;
-        transform: rotate(25deg);
-        filter: blur(.8px);
-    }
-
-    .pageLogo{
-        width: 120px;
-    }
-
-    .language-switcher a{
-        padding: 2px 4px;
-    }
-
-    .star{
-        margin-top: 3rem;
-    }
-
-    .readMorePL{
-        left: -13.3rem;
-    }
-
-    .subtxt.subtxt3, .text.text3{
-        margin-left: 5.5rem;
-    }
-
-    .learn-more-btn{
-        margin-left: -14rem;
-        width: 200px;
-        text-align: center;
-    }
-} */
 
 
 @media (max-width: 600px) {
@@ -1258,54 +1058,125 @@ a{
     }
 }
 
-@media (min-width: 390px){
+@media (min-width: 390px) {
+    .star{
+        margin-left: 4rem;
+    }
+
+    .language-switcher a {
+        padding: 2px 4px;
+    }
+
+    .readMore {
+        margin-left: .8rem;
+    }
+
+    .readMorePL {
+        margin-left: -.7rem;
+    }
+
+    .text.text1,
+    .subtxt.subtxt1 {
+        width: 300px;
+        margin-left: 3rem;
+    }
+
+    #framePL {
+        top: -1rem;
+    }
+}
+
+@media (max-width: 430px) {
     .pageLogo{
-        width: 120px;
+        width: 130px;
+        margin-left: 1.5rem;
+    }
+
+    .star {
+        left: -1.2rem;
+    }
+
+    .offer img{
+        height: 240px;
+    }
+
+    .subtxt.subtxt.subtxt1{
+        margin-bottom: 2rem;
+    }
+
+    .frame-text{
+        margin-top: -6.5rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .pageLogo{
+        margin-left: 1.5rem;
+        max-width: 130px;
     }
 
     .language-switcher a{
         padding: 2px 4px;
     }
 
-    .readMore{
-        margin-left: .8rem;
+    .star{
+        left: -.05rem;
     }
 
-    .readMorePL{
-        margin-left: -.7rem;
+    .readMorePL {
+        margin-left: -1rem;
     }
 
-    .text.text1, .subtxt.subtxt1{
+    .readMore {
+        margin-left: .5rem;
+    }
+
+    .offer img{
+        height: 250px;
+    }
+
+    .subtxt.subtxt1{
+        margin-bottom: 2rem;
+    }
+
+    .text.text1,
+    .subtxt.subtxt1 {
         width: 300px;
         margin-left: 3rem;
     }
 
-    #framePL{
-        top: -1rem;
+    .frame-text {
+        margin-top: -6.5rem;
     }
 }
 
-@media (min-width: 430px){
+@media (max-width: 320px){
+    .pageLogo{
+        width: 120px;
+        margin-left: 1.5rem;
+    }
+
+    .language-switcher a{
+        padding: 2px 4px;
+    }
+
     .star{
-        left: -1.3rem;
-    }
-}
-
-@media (min-width: 375px){
-    .readMorePL{
-        margin-left: -1rem;
+        left: 1.8rem;
     }
 
-    .readMore{
-        margin-left: .5rem;
+    .offer img{
+        height: 250px;
     }
 
-    .text.text1, .subtxt.subtxt1{
-        width: 300px;
-        margin-left: 3rem;       
+    .subtxt.subtxt1{
+        margin-bottom: 2rem;
     }
 
-    #framePL{
-        top: -1rem;
+    .subtxt{
+        width: 220px;
+    }
+
+    .frame-text{
+        margin-top: -6.5rem;
     }
 }
