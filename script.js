@@ -136,8 +136,8 @@ function toggleBox(btn) {
 }
 
 
-document.querySelectorAll('.aboutMe, .mainText1, .mainText2, .mainText3').forEach(el => {
+document.querySelectorAll('.aboutMe, .mainText1, .mainText2, .mainText3, .content-full').forEach(el => {
   el.innerHTML = el.innerHTML.replace(
-    /\b(a|i|o|u|w|z|na|do|od|po|za|ze|we|and|I|or|of|to|in|on)\s+/gi, '$1&nbsp;'
+    /\b(a|i|o|u|w|z|na|do|od|po|za|ze|we|and|I|or|of|to|in|on|the)\s+/gi, '$1&nbsp;'
   );
 });
