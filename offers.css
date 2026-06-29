@@ -200,9 +200,29 @@ body {
     color: white;
 }
 
+@media (min-width: 2560px){
+    .pageLogo{
+        right: 70rem;
+    }
+}
+
+@media (min-width: 1920px) {
+    .pageLogo {
+        right: 50rem;
+    }
+
+    .back-button{
+        padding: 8px 16px;
+    }
+
+    .language-switcher a{
+        padding: 8px 16px;
+    }
+}
+
 @media (min-width: 1400px){
     .pageLogo{
-        margin-right: 11rem;
+        margin-right: 1rem;
     }
 }
 
@@ -251,5 +271,15 @@ body {
 
     .language-switcher{
         right: 10px;
+    }
+
+    .language-switcher a{
+        font-size: 10px;
+        padding: 3px 6px;
+        margin-right: -.3rem;
+    }
+
+    .back-button{
+        padding: 2px 4px;
     }
 }
