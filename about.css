@@ -789,6 +789,16 @@ body {
     .my_pathPL{
         margin-left: 2rem;
     }
+
+    .language-switcher a {
+        font-size: 10px;
+        padding: 3px 6px;
+        margin-right: -.4rem;
+    }
+
+    .language-switcher {
+        margin-top: -.4rem;
+    }
 }
 
 @media (max-width: 360px){
@@ -803,6 +813,16 @@ body {
 
     .my_pathPL{
         margin-left: .7rem;
+    }
+
+    .language-switcher a{
+        font-size: 10px;
+        padding: 3px 6px;
+        margin-right: -.4rem;
+    }
+
+    .language-switcher{
+        margin-top: -.4rem;
     }
 }
 
@@ -855,9 +875,76 @@ body {
     }
 }
 
+@media (min-width: 1920px){
+    .pageLogo{
+        margin-left: 17.5rem;
+        width: 800px;
+        height: auto;
+    }
+
+    .language-switcher a{
+        font-size: 18px;
+        padding: 6px 10px;
+    }
+
+    .about_me{
+        top: 13rem;
+        margin-right: 3rem;
+    }
+
+    .mainText1{
+        margin-top: -15rem;
+        margin-left: 10rem;
+        font-size: 1.8rem;
+    }
+
+    .portrait1{
+        margin-left: 10rem;
+        margin-top: 5rem;
+        width: 650px;
+    }
+
+    .portrait2{
+        top: 35rem;
+        width: 900px;
+        height: auto;
+        left: 70rem;
+    }
+
+    .my_path{
+        margin-top: -20rem;
+        margin-left: 10rem;
+        margin-bottom: 10rem;
+    }
+
+    .mainText2{
+        margin-top: -1rem;
+        font-size: 1.8rem;
+        width: 900px;
+    }
+
+    .portrait3 {
+        top: 30rem;
+        width: 800px;
+        height: auto;
+        left: 75rem;
+    }
+
+    .my_pathPL {
+        top: -38rem;
+        margin-left: 3rem;
+    }
+
+    .mainText3 {
+        width: 900px;
+        margin-top: -10rem;
+        font-size: 1.8rem;
+    }
+}
+
 @media (min-width: 2560px){
     .pageLogo{
-        left: 78rem;
+        left: 60rem;
         width: 500px;
         height: auto;
     }
@@ -880,15 +967,15 @@ body {
 
     .portrait2{
         margin-left: 25rem;
-        margin-top: 30rem;
-        width: 1000px;
+        margin-top: 15rem;
+        width: 1100px;
         height: auto;
     }
 
     .portrait3{
-        width: 800px;
+        width: 860px;
         height: auto;
-        margin-left: 35rem;
+        margin-left: 28rem;
         margin-top: 10rem;
     }
 
@@ -896,11 +983,13 @@ body {
     .about_me{
         right: 20rem;
         font-size: 6.5rem;
+        margin-bottom: -3rem;
     }
 
     .my_path{
         font-size: 8rem;
         margin-top: -28rem;
+        margin-bottom: -12rem;
         margin-left: 20rem;
     }
 
@@ -920,12 +1009,13 @@ body {
         font-size: 2rem;
         width: 1200px;
         margin-left: 5rem;
+        margin-top: 15rem;
     }
 
     .my_background{
         margin-top: -20rem;
         font-size: 7rem;
-        left: 15rem;
+        left: 5rem;
     }
 
     .my_backgroundPL{
@@ -935,7 +1025,8 @@ body {
     }
 
     .my_pathPL{
-        margin-top: -26rem;
+        margin-top: -15rem;
+        margin-bottom: -25rem;
         font-size: 6rem;
         left: 28rem;
     }
