@@ -1092,8 +1092,12 @@ a {
         margin-left: 1.5rem;
     }
 
+    .language-switcher a{
+        padding: 2px 4px; 
+    }
+
     .star {
-        left: -1.2rem;
+        left: -.2rem;
     }
 
     .offer img{
@@ -1102,7 +1106,7 @@ a {
 
     .subtxt.subtxt1{
         margin-bottom: 2rem;
-        color: #ff0000;
+        margin-left: 2rem;
     }
 
     .frame-text{
