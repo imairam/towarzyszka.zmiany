@@ -1094,6 +1094,7 @@ a {
 
     .language-switcher a{
         padding: 2px 4px; 
+        font-size: 14px;
     }
 
     .star {
@@ -1106,7 +1107,7 @@ a {
 
     .subtxt.subtxt1{
         margin-bottom: 2rem;
-        margin-left: 2rem;
+        margin-left: 3rem;
     }
 
     .frame-text{
