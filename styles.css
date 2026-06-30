@@ -1057,7 +1057,7 @@ a {
     }
 }
 
-@media (max-width: 390px) {
+@media (min-width: 390px) {
     .star{
         margin-left: 4rem;
     }
@@ -1077,7 +1077,7 @@ a {
     .text.text1,
     .subtxt.subtxt1 {
         width: 300px;
-        margin-left: 3rem;
+        margin-left: 1.5rem;
     }
 
     #framePL {
