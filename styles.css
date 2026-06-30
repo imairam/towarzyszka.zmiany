@@ -1077,7 +1077,8 @@ a {
     .text.text1,
     .subtxt.subtxt1 {
         width: 300px;
-        margin-left: 1.5rem;
+        left: 5rem;
+        color: red;
     }
 
     #framePL {
